@@ -4,6 +4,12 @@ Quick switch between a hardwired connection and a wireless connection at the ada
 ### README ###
 This script is intended to switch between the hardwired connection and the wifi connection, in order to avoid having to plug/unplug cables or connect/disconnect to the VPN. Too much time is spent doing so!
 
+### ASSUMPTIONS ###
+
+- You already have the Wireless network connection saved on your PC
+- You have a hardwired connection named Ethernet. If not, simply change the name in the .bat
+- You have admin privileges on your machine
+
 ### Setup: ###
 First thing you need to do is setup the names for the connections. In most cases, the information that is already set will work for you, but in case it doesnt, perform the following steps:
 	
